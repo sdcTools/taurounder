@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configurationDescriptor version="95">
+<configurationDescriptor version="100">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
@@ -41,8 +41,8 @@
       <compileType>
         <ccTool>
           <incDir>
-            <pElem>C:/Program Files/Java/jdk1.8.0/include</pElem>
-            <pElem>C:/Program Files/Java/jdk1.8.0/include/win32</pElem>
+            <pElem>C:/Program Files (x86)/Java/jdk1.7.0_80/include</pElem>
+            <pElem>C:/Program Files (x86)/Java/jdk1.7.0_80/include/win32</pElem>
           </incDir>
           <preprocessorList>
             <Elem>CPLEXV</Elem>
@@ -52,7 +52,7 @@
           </preprocessorList>
         </ccTool>
         <linkerTool>
-          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libTauRounder.${CND_DLIB_EXT}</output>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/TauRounder.${CND_DLIB_EXT}</output>
           <linkerAddLib>
             <pElem>../CRP/dist/Debug/MinGW-Windows</pElem>
           </linkerAddLib>
@@ -64,7 +64,7 @@
       </compileType>
       <item path="RounderCtrl.swg" ex="false" tool="3" flavor2="0">
         <customTool>
-          <customToolCommandline>D:\Users\pwof\Documents\swig\swigwin-3.0.0\swig.exe -c++ -I./src -java -package tauargus.extern.taurounder -outdir ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM} -o ./src/RounderCtrl_wrap.cpp RounderCtrl.swg</customToolCommandline>
+          <customToolCommandline>C:\swigwin-3.0.10\swig.exe -c++ -I./src -java -package tauargus.extern.taurounder -outdir ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM} -o ./src/RounderCtrl_wrap.cpp RounderCtrl.swg</customToolCommandline>
           <customToolOutputs>./src/RounderCtrl_wrap.cpp ./src/RounderCtrl_wrap.h</customToolOutputs>
         </customTool>
       </item>
