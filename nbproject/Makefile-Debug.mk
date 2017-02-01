@@ -57,27 +57,27 @@ LDLIBSOPTIONS=-L../CRP/dist/Debug/MinGW-Windows -lCRP
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libTauRounder.${CND_DLIB_EXT}
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/TauRounder.${CND_DLIB_EXT}
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libTauRounder.${CND_DLIB_EXT}: ${OBJECTFILES}
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/TauRounder.${CND_DLIB_EXT}: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libTauRounder.${CND_DLIB_EXT} ${OBJECTFILES} ${LDLIBSOPTIONS} -Wl,--kill-at -shared
+	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/TauRounder.${CND_DLIB_EXT} ${OBJECTFILES} ${LDLIBSOPTIONS} -Wl,--kill-at -shared
 
 .NO_PARALLEL:./src/RounderCtrl_wrap.cpp ./src/RounderCtrl_wrap.h
-./src/RounderCtrl_wrap.cpp ./src/RounderCtrl_wrap.h: RounderCtrl.swg 
+./src/RounderCtrl_wrap.cpp ./src/RounderCtrl_wrap.h: RounderCtrl.swg
 	${MKDIR} -p ./src ./src
 	@echo Performing Custom Build Step
-	D:\Users\pwof\Documents\swig\swigwin-3.0.0\swig.exe -c++ -I./src -java -package tauargus.extern.taurounder -outdir ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM} -o ./src/RounderCtrl_wrap.cpp RounderCtrl.swg
+	E:/W7/Users/Peter-Paul/MyDocuments/Thuiswerk/Programmatuur/swigwin-3.0.2/swig.exe -c++ -I./src -java -package tauargus.extern.taurounder -outdir ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM} -o ./src/RounderCtrl_wrap.cpp RounderCtrl.swg
 
-${OBJECTDIR}/src/RounderCtrl.o: src/RounderCtrl.cpp 
+${OBJECTDIR}/src/RounderCtrl.o: src/RounderCtrl.cpp
 	${MKDIR} -p ${OBJECTDIR}/src
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -DCPLEXV -DDYNAMIC -DSCIPV -DXPRESSV -I/C/Program\ Files/Java/jdk1.8.0/include -I/C/Program\ Files/Java/jdk1.8.0/include/win32  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/RounderCtrl.o src/RounderCtrl.cpp
+	$(COMPILE.cc) -g -DCPLEXV -DDYNAMIC -DSCIPV -DXPRESSV -I/C/Program\ Files\ \(x86\)/Java/jdk1.7.0_17/include -I/C/Program\ Files\ \(x86\)/Java/jdk1.7.0_17/include/win32  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/RounderCtrl.o src/RounderCtrl.cpp
 
-${OBJECTDIR}/src/RounderCtrl_wrap.o: src/RounderCtrl_wrap.cpp 
+${OBJECTDIR}/src/RounderCtrl_wrap.o: src/RounderCtrl_wrap.cpp
 	${MKDIR} -p ${OBJECTDIR}/src
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -DCPLEXV -DDYNAMIC -DSCIPV -DXPRESSV -I/C/Program\ Files/Java/jdk1.8.0/include -I/C/Program\ Files/Java/jdk1.8.0/include/win32  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/RounderCtrl_wrap.o src/RounderCtrl_wrap.cpp
+	$(COMPILE.cc) -g -DCPLEXV -DDYNAMIC -DSCIPV -DXPRESSV -I/C/Program\ Files\ \(x86\)/Java/jdk1.7.0_17/include -I/C/Program\ Files\ \(x86\)/Java/jdk1.7.0_17/include/win32  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/src/RounderCtrl_wrap.o src/RounderCtrl_wrap.cpp
 
 # Subprojects
 .build-subprojects:
@@ -85,7 +85,6 @@ ${OBJECTDIR}/src/RounderCtrl_wrap.o: src/RounderCtrl_wrap.cpp
 # Clean Targets
 .clean-conf: ${CLEAN_SUBPROJECTS}
 	${RM} -r ${CND_BUILDDIR}/${CND_CONF}
-	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libTauRounder.${CND_DLIB_EXT}
 	${RM} ./src/RounderCtrl_wrap.cpp ./src/RounderCtrl_wrap.h
 
 # Subprojects

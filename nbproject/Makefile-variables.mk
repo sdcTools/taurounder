@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=MinGW-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/MinGW-Windows
-CND_ARTIFACT_NAME_Debug=libTauRounder.dll
-CND_ARTIFACT_PATH_Debug=dist/Debug/MinGW-Windows/libTauRounder.dll
+CND_ARTIFACT_NAME_Debug=TauRounder.dll
+CND_ARTIFACT_PATH_Debug=dist/Debug/MinGW-Windows/TauRounder.dll
 CND_PACKAGE_DIR_Debug=dist/Debug/MinGW-Windows/package
-CND_PACKAGE_NAME_Debug=libTauRounder.dll.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/MinGW-Windows/package/libTauRounder.dll.tar
+CND_PACKAGE_NAME_Debug=libtaurounder.dll.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/MinGW-Windows/package/libtaurounder.dll.tar
 # Release configuration
 CND_PLATFORM_Release=MinGW-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/MinGW-Windows
-CND_ARTIFACT_NAME_Release=libTauRounder.dll
-CND_ARTIFACT_PATH_Release=dist/Release/MinGW-Windows/libTauRounder.dll
+CND_ARTIFACT_NAME_Release=libtaurounder.dll
+CND_ARTIFACT_PATH_Release=dist/Release/MinGW-Windows/libtaurounder.dll
 CND_PACKAGE_DIR_Release=dist/Release/MinGW-Windows/package
-CND_PACKAGE_NAME_Release=libTauRounder.dll.tar
-CND_PACKAGE_PATH_Release=dist/Release/MinGW-Windows/package/libTauRounder.dll.tar
+CND_PACKAGE_NAME_Release=libtaurounder.dll.tar
+CND_PACKAGE_PATH_Release=dist/Release/MinGW-Windows/package/libtaurounder.dll.tar
 #
 # include compiler specific variables
 #

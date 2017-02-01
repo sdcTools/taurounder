@@ -41,8 +41,8 @@
       <compileType>
         <ccTool>
           <incDir>
-            <pElem>C:/Program Files (x86)/Java/jdk1.7.0_80/include</pElem>
-            <pElem>C:/Program Files (x86)/Java/jdk1.7.0_80/include/win32</pElem>
+            <pElem>C:/Program Files (x86)/Java/jdk1.7.0_17/include</pElem>
+            <pElem>C:/Program Files (x86)/Java/jdk1.7.0_17/include/win32</pElem>
           </incDir>
           <preprocessorList>
             <Elem>CPLEXV</Elem>
@@ -64,7 +64,7 @@
       </compileType>
       <item path="RounderCtrl.swg" ex="false" tool="3" flavor2="0">
         <customTool>
-          <customToolCommandline>C:\swigwin-3.0.10\swig.exe -c++ -I./src -java -package tauargus.extern.taurounder -outdir ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM} -o ./src/RounderCtrl_wrap.cpp RounderCtrl.swg</customToolCommandline>
+          <customToolCommandline>E:/W7/Users/Peter-Paul/MyDocuments/Thuiswerk/Programmatuur/swigwin-3.0.2/swig.exe -c++ -I./src -java -package tauargus.extern.taurounder -outdir ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM} -o ./src/RounderCtrl_wrap.cpp RounderCtrl.swg</customToolCommandline>
           <customToolOutputs>./src/RounderCtrl_wrap.cpp ./src/RounderCtrl_wrap.h</customToolOutputs>
         </customTool>
       </item>
