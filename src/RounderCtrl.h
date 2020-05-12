@@ -51,6 +51,8 @@ public:
     int DoRound(char *Solver, char *InFileName, double Base, double *UpperBound, double *LowerBound, long Auditing, char *SolutionFile, 
                  char* StatisticsFile, char *LicenseFile, char *LogFile, long MaxTime, long ZeroRestricted, char *NamePathExe, 
                  double *MaxJump, long *NumberJump, double *UsedTime, long *ErrorCode);
+    
+    std::string GetVersion();
 };
 
 #endif	/* ROUNDERCTRL_H */

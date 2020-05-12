@@ -17,6 +17,7 @@
 
 #include "RounderCtrl.h"
 #include "WrapCRP.h"
+#include "resource.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -77,4 +78,8 @@ int RounderCtrl::DoRound(char *Solver, char *InFileName, double Base, double *Up
                    SolutionFile, StatisticsFile, LicenseFile, LogFile, 
                    MaxTime, ZeroRestricted, NamePathExe, MaxJump, NumberJump, UsedTime, ErrorCode);
     return res;
+}
+
+std::string RounderCtrl::GetVersion(){
+    return ROUNDERVERSION;
 }
